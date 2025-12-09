@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 140px;
+}
+  
+body {
+  font-family: Arial;
+  margin: 0;
+  
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 20px;
+  text-align: left;
+  background: #2a79e2;
+  color: white;
+}
+  
+header h1{
+  margin: 0;
+  font-size: 25px;
+}
+  
+nav{
+  padding-right: 30px;
+}
+
+nav a {
+  float: right;
+  display: block;
+  width: 100px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+  
+nav a:hover {
+  background-color: #FFA500;
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url("images/pickleball-background.webp");
+  height: 800px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  text-align: left;
+  padding: 20px;
+  color: white;
+  padding-top: 140px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+main {   
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 20px;
+  padding-top: 120px;
+  text-align: left;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+main em {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+main h1 {
+  font-size: 50px;
+}
+
+main h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+main h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+main p1 {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+main ul {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+main ol {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+main img {
+  float:right;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #2a79e2;
+  color: white;
+  }
