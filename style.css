@@ -95,6 +95,8 @@ main {
   padding: 20px;
   padding-top: 120px;
   text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 main section {
@@ -149,3 +151,4 @@ footer {
   color: white;
 
   }
+
