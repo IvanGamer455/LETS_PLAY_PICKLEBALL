@@ -144,7 +144,7 @@ main ol {
 
 main img {
   float: right;
-  padding: 30px;
+  padding-left: 30px;
 }
 
 footer {
@@ -154,5 +154,6 @@ footer {
   color: white;
 
   }
+
 
 
